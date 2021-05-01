@@ -40,7 +40,10 @@ console.log(Number(true))
 */
 
 //CONVERTIR A BOOLEANO
-console.log(Boolean(' '));
+//console.log(Boolean(' '));
+let edad = 12
+let resultado = edad >= 18 ? `es mayor de edad` : `es menor de edad`;
+console.log(resultado);
 
 
 
