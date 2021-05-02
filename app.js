@@ -53,6 +53,7 @@ while(i >0){
     i--;
 }
 */
+/*
 console.log('++++++++ etiquetas ++++++++++')
 pto: for(i=0 ; i <=10 ; i++){
     for(j=0 ;j<=10 ; j++){
@@ -62,7 +63,26 @@ pto: for(i=0 ; i <=10 ; i++){
 }
 
 console.log('salio');
+*/
+//break opcional en el bucle switch  // [break]
 
+//creacion de una funcion de manera dinamica
+/*
+let edad = 32;
+let Saludo = (edad > 18) ? () => console.log('es mayor'): console.log('es menor');
+Saludo();
+*/
+
+
+//CALLBACKS
+function decidir(pregunta, si,no){
+    if (confirm(pregunta)) si()
+        else no();
+}
+let si = () => alert('la persona dijo que si');
+let no = () => alert('la persona dijo que no');
+
+decidir('Estas dispuesto', si, no);
 
 
 
